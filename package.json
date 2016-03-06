@@ -1,6 +1,6 @@
 {
   "name": "adjective-animal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate an adjective-animal name !",
   "main": "index.js",
   "tonicExampleFilename": "example.js",
