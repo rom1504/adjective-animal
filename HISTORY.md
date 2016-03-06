@@ -1,3 +1,7 @@
+# 1.1.1
+
+* remove comma in animals.txt
+
 # 1.1.0
 
 * name list
