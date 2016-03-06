@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Generate an adjective-animal name !",
   "main": "index.js",
+  "tonicExampleFilename": "example.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish":"require-self"
