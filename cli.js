@@ -2,4 +2,7 @@
 
 const adjectiveAnimal=require("adjective-animal");
 
-console.log(adjectiveAnimal.generateName());
+if(process.argv[2]=="list" && process.argv[3])
+  console.log(adjectiveAnimal.generateNameList(process.argv[3]).join("\n"));
+else
+  console.log(adjectiveAnimal.generateName());

@@ -6,7 +6,7 @@ Generate an adjective-animal name !
 
 ## Usage
 
-`npm install -g adjective-animal` and then `adjective-animal`
+`npm install -g adjective-animal` and then `adjective-animal` or `adjective-animal list 10`
 
 Or use it as a module:
 
