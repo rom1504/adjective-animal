@@ -1,0 +1,30 @@
+{
+  "name": "adjective-animal",
+  "version": "1.0.0",
+  "description": "Generate an adjective-animal name !",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish":"require-self"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rom1504/adjective-animal.git"
+  },
+  "keywords": [
+    "adjective",
+    "animal"
+  ],
+  "engines": {
+    "node": ">=5"
+  },
+  "author": "Romain Beaumont <romain.rom1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rom1504/adjective-animal/issues"
+  },
+  "homepage": "https://github.com/rom1504/adjective-animal#readme",
+  "devDependencies": {
+    "require-self": "^0.1.0"
+  }
+}
