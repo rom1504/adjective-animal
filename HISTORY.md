@@ -1,3 +1,7 @@
+# 1.1.0
+
+* name list
+
 # 1.0.2
 
 * add tonic and badge
