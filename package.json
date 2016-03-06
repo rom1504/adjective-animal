@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish":"require-self"
   },
+  "bin": {
+    "adjective-animal": "./cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rom1504/adjective-animal.git"
