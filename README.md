@@ -15,3 +15,6 @@ const adjectiveAnimal=require("adjective-animal");
 
 console.log(adjectiveAnimal.generateName());
 ```
+
+## Thanks
+- [mhsjlw](https://github.com/mhsjlw) for the idea, currently used in [flying-squid](https://github.com/PrismarineJS/flying-squid) and [dazed-sheep](https://github.com/dazed-sheep/dazed-sheep)
