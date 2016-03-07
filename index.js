@@ -2,8 +2,16 @@
 
 const fs=require("fs");
 
-const animals=fs.readFileSync(__dirname+"/animals.txt","utf8").split("\n").map(animal => animal.toLowerCase().trim().replace(" ","-"));
-const adjectives=fs.readFileSync(__dirname+"/adjectives.txt","utf8").split("\n").map(animal => animal.toLowerCase().trim().replace(" ","-"));
+function fileToArray(fileName)
+{
+  return fs.readFileSync(__dirname+"/"+fileName,"utf8")
+    .split("\n")
+    .map(animal => animal.toLowerCase().trim().replace(" ","-"))
+    .filter(a => a!="");
+}
+
+const animals=fileToArray("animals.txt");
+const adjectives=fileToArray("adjectives.txt");
 
 function generateName()
 {
