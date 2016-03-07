@@ -1,3 +1,7 @@
+# 1.1.2
+
+* fix empty animal/adjective
+
 # 1.1.1
 
 * remove comma in animals.txt
