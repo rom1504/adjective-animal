@@ -1,3 +1,7 @@
+# 1.1.3
+
+* make browserifyable
+
 # 1.1.2
 
 * fix empty animal/adjective
