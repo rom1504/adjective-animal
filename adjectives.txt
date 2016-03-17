@@ -19,7 +19,7 @@ short
 small 
 tall 
 tiny 
- boiling 
+boiling 
 breezy 
 broken 
 bumpy 
@@ -1408,7 +1408,7 @@ jolly
 kind
 long
 lazy
-magnificent 
+magnificentÂ 
 magenta
 many
 mighty
