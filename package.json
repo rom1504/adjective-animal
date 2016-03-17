@@ -1,0 +1,36 @@
+{
+  "name": "web-adjective-animal",
+  "version": "1.0.0",
+  "description": "Web interface for adjective-animal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js -o bundle.js",
+    "publish": "git checkout gh-pages && git merge web && npm run build && git add -f bundle.js && git commit -m 'publish' ; git push origin gh-pages && git checkout web"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rom1504/adjective-animal.git"
+  },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "keywords": [
+    "web",
+    "adjective",
+    "animal"
+  ],
+  "author": "Romain Beaumont <romain.rom1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rom1504/adjective-animal/issues"
+  },
+  "homepage": "https://github.com/rom1504/adjective-animal#readme",
+  "dependencies": {
+    "adjective-animal": "^1.1.3",
+    "brfs": "^1.4.3",
+    "browserify": "^13.0.0"
+  }
+}
